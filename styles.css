@@ -1,0 +1,70 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Header */
+.header {
+    background-color: #002a42; /* Cambia el color de fondo */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px; /* Tamaño del logotipo */
+}
+
+.menu a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #00d1b2; /* Color de hover en los enlaces */
+}
+
+/* Estilos del CTA (Llamado a la acción) */
+.cta-button {
+    display: inline-block;
+    padding: 15px 25px;
+    color: #fff;
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: linear-gradient(45deg, #0072ff, #00c6ff);
+}
+
+/* Footer */
+.footer {
+    background-color: #002a42;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
